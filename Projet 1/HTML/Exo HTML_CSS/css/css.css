@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+.top h1{
+    text-align: center;
+    color: rgb(80, 108, 231);
+    font-size: 80px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.link a:hover{
+    color: rgb(250, 170, 66);
+    transition: 0.3s;
+    font-style: bold;
+}
+
+.link, .link a{
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+
+.text{
+    position: relative;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(250, 170, 66);
+}

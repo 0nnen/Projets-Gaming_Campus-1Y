@@ -1,0 +1,68 @@
+body{
+    background: #292929;
+}
+.sect{
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.title{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #a265f1;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.svg {
+    position:absolute;
+    margin-top: 50px;
+}
+.navbar {
+    padding: 0;
+    margin-top: 35px;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-left: 30px;
+    
+  }
+  .navbar a, .navbar a:focus {
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar a i, .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+  .navbar a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #e96060;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .navbar a:hover{
+    color: #e96060;
+  }
+  
+.sect p{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
