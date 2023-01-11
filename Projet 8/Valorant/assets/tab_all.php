@@ -1,5 +1,5 @@
 <div class="content_toggle_all" id=tab_all>
-                    
+
     <!-- TABLE CONSTRUCTION -->
     <table id="table_all" class="table table-hover table-dark">
         <thead class="thead-dark">

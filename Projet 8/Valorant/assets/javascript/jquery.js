@@ -10,7 +10,7 @@ $(document).ready(function(){
         //Add animation when shown
         $("tr:not(:first-child)").each(function (index ) {
             $(this).css('animation-delay',index *0.150 +'s');
-         });
+        });
     });
 
 
@@ -25,23 +25,23 @@ $(document).ready(function(){
         //Add animation when shown
         $("tr:not(:first-child)").each(function (index ) {
             $(this).css('animation-delay',index *0.150 +'s');
-         });  
+        });  
 
     });
 
 
 
-// =============  Bouton BestPlayer =============
+// =============  Bouton Match 3 =============
 
-        //Add active to the class and change the CSS
-        $("#toggle_globalmatch").on('click',function(){
-            $(".content_toggle_globalmatch").toggleClass('active');
-    
-            //Add animation when shown
-            $("tr:not(:first-child)").each(function (index ) {
-                $(this).css('animation-delay',index *0.150 +'s');
-             });  
-    
-        });
+    //Add active to the class and change the CSS
+    $("#toggle_globalmatch").on('click',function(){
+        $(".content_toggle_globalmatch").toggleClass('active');
+
+        //Add animation when shown
+        $("tr:not(:first-child)").each(function (index ) {
+            $(this).css('animation-delay',index *0.150 +'s');
+            });  
+
+    });
     
 });

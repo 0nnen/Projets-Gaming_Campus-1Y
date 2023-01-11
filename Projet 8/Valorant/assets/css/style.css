@@ -1,6 +1,5 @@
 html, body {
   scroll-behavior: smooth; /*Glissement de la page fluide */
-
 }
 
 
@@ -285,7 +284,7 @@ button:hover h3 {
 }
 
 /*------------------
-#   Tables  ALL
+#   Table  ALL
 ------------------*/
 .content_toggle_all {
   max-height: 0;
@@ -304,7 +303,7 @@ button:hover h3 {
 
 
 /*-------------------------
-#   Tables  BEST_PLAYER
+#   Table  BEST_PLAYER
 -------------------------*/
 .content_toggle_bestplayer {
   max-height: 0;
@@ -314,6 +313,25 @@ button:hover h3 {
   transition: max-height 0.3s, padding 0.3s;
 }
 .content_toggle_bestplayer.active{
+  max-height: 100%;
+  padding: 10px 10px;
+  transition: max-height 0.6s, padding 0.6s;
+}
+
+
+
+
+/*-------------------------
+#   Table  GLOBALMATCH3
+-------------------------*/
+.content_toggle_globalmatch {
+  max-height: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: max-height 0.3s, padding 0.3s;
+}
+.content_toggle_globalmatch.active{
   max-height: 100%;
   padding: 10px 10px;
   transition: max-height 0.6s, padding 0.6s;
