@@ -1,0 +1,14 @@
+/* Faites vos tests !! */
+p.bli{
+    color: red;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: brown;
+    text-transform:uppercase
+}
+/* .header{background-image: url(/img/bg.jpeg);}
+.header{min-height: 500px;} */
+.header{text-align:center; display:flex; justify-content:space-around;align-items:flex-start;}
+#blue{background-color: aquamarine;width: 100px;height: 100px;}
+#red{background-color: coral;width: 100px;height: 30px;}
